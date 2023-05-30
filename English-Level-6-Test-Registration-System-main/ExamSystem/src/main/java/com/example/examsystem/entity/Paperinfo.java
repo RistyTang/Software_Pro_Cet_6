@@ -19,8 +19,8 @@ import java.util.Date;
 public class Paperinfo implements Serializable {    //可序列化，方便保存对象
     @TableId(value = "id",type= IdType.AUTO)
     private Integer id;
-    private String money;
-    private String title;
+    private String money;//报名费
+    private String title;//试卷名称
     private String description;
     private String time;
 
