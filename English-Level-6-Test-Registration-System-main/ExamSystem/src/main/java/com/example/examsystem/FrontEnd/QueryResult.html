@@ -10,10 +10,33 @@
 
 <!--编写函数，不太会，先放着：）-->
 <script>
-    function querySubmit() {
+    function querySubmit()
+    {
         // 暂时默认调用获取学生信息模块
-        alert("yes here");
-        return com.example.examsystem.service.impl.StudentServiceImpl.login(6523,"13256");
+        //var nameget=document.getElementById("xm").value;
+        //var identifyget=document.getElementById("sfz").value;
+        var myHeaders = new Headers();
+        myHeaders.append("User-Agent", "Apifox/1.0.0 (https://apifox.com)");
+        myHeaders.append("Accept", "*/*");
+        myHeaders.append("Host", "hoshiboom.space");
+        myHeaders.append("Connection", "keep-alive");
+
+        var urlencoded = new URLSearchParams();
+        urlencoded.append("number", "6523");
+        urlencoded.append("password", "13256");
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: urlencoded,
+            redirect: 'follow'
+        };
+
+        fetch("http://hoshiboom.space/login/student", requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+        alert("已经提交");
     }
 </script>
 <!--网页顶部-->

@@ -1,4 +1,28 @@
-/*用于美化试题录入页面*/
-body{
-    background-color: pink;
+/*主框架*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Microsoft yahei', Arial, "Times New Roman", Times, serif, NeeaSimsun-Regular;
+    text-align: left;
+    background: #fff;
+    color: #404040;
 }
+#Header, #Content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    clear: both;
+}
+#Header {
+    position: relative;
+}
+#Footer {
+    border-top: 1px solid #ccc;
+}
+#Footer {
+    background: #ddd;
+    margin-top: 0;
+}
+/*Header*/
