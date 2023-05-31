@@ -68,6 +68,14 @@ a {
     border-bottom: solid 1px #DDD;
     padding-left: 15px;
 }
+.n_nav .indexbtn {
+    background: #ff7f00;
+    width: 70px;
+    text-align: center;
+    float: left;
+    height: 46px;
+}
+
 /*Content*/
 .condition {
     float: left;
@@ -301,6 +309,20 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, p {
 }
 em {
     font-style: italic;
+}
+.query-remarks {
+    width: 600px;
+    margin: 30px auto;
+}
+.layui-elem-lightBlue {
+    border-left: 5px solid #D0E0EE;
+}
+.layui-elem-quote {
+    margin-bottom: 10px;
+    padding: 15px;
+    line-height: 1.6;
+    border-radius: 0 2px 2px 0;
+    background-color: #FAFAFA;
 }
 /*Footer*/
 .footer {
