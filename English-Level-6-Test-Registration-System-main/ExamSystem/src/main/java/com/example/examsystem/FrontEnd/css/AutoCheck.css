@@ -50,6 +50,17 @@ body {
     border-bottom: solid 3px #003E7D;
     font-weight: bold;
 }
+.header-top-right span {
+    position: absolute;
+    right: 0;
+}
+.header-top-right a {
+    color: #313F61;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
 .paths {
     height: 30px;
     line-height: 30px;
@@ -58,6 +69,10 @@ body {
     padding-left: 15px;
 }
 /*Content*/
+.condition {
+    float: left;
+    margin: 0 0 30px 0;
+}
 .condition-left {
     width: 820px;
     float: left;
@@ -73,8 +88,15 @@ body {
 }
 .intr {
     float: left;
+    width: 240px;
+    margin-left: 40px;
     text-align: left;
     margin-top: 20px;
+}
+.intr ul li {
+    padding-left: 20px;
+    line-height: 200%;
+    margin-bottom: 20px;
 }
 .c_tits {
     height: 30px;
@@ -89,6 +111,25 @@ body {
     margin-right: auto;
     /* width: 862px; */
 }
+.container #CurrentlyTranslation p {
+    margin-bottom: 20px;
+}
+.container #CurrentlyArticle p {
+    margin-bottom: 20px;
+}
+.container h1 {
+    font-size: 28px;
+    line-height: 200%;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .zlykuang {
     border: none;
     width: auto;
@@ -97,6 +138,9 @@ table {
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
+}
+.zlykuang table {
+    border: 1px solid #284;
 }
 tbody {
     display: table-row-group;
@@ -218,6 +262,16 @@ input[type="button" i] {
     width: 10px;
     background-color: #fe8500;
 }
+.intr ul li {
+    padding-left: 10px;
+    line-height: 200%;
+    margin-bottom: 20px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
 ul {
     display: block;
     list-style-type: disc;
@@ -230,10 +284,10 @@ ul {
 ul, li {
     list-style: None;
 }
-.intr ul li {
-    padding-left: 20px;
-    line-height: 200%;
-    margin-bottom: 20px;
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, p {
+    padding: 0;
+    margin: 0;
 }
 
 .intr .ul1 li em {

@@ -24,7 +24,7 @@ public class Question implements Serializable {    //可序列化，方便保存
     private String optionC;
     private String optionD;
     private String answer;
-    private Integer typeId;//标识题目类型：1单选2天空3作文翻译4文章
+    private Integer typeId;//标识题目类型：1单选2填空3作文翻译4文章
     private Integer score;//这道题的分数
 
     private static final long serialVersionUID = 1L;    //序列化和反序列化时校验防止出错，1L表示这是这个类的第一个版本
