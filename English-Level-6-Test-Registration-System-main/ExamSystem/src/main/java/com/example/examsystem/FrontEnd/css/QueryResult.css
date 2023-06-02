@@ -44,11 +44,23 @@ body {
     padding-top: 10px;
     font-size: 12px;
 }
+.n_nav .indexbtn {
+    background: #ff7f00;
+    width: 70px;
+    text-align: center;
+    float: left;
+    height: 46px;
+}
 .n_nav {
     height: 46px;
     background-color: #E7E8EB;
     border-bottom: solid 3px #003E7D;
     font-weight: bold;
+}
+.n_nav dl {
+    float: left;
+    line-height: 46px;
+    padding: 0 0 0 20px;
 }
 .header-top-right span {
     position: absolute;
@@ -68,13 +80,7 @@ a {
     border-bottom: solid 1px #DDD;
     padding-left: 15px;
 }
-.n_nav .indexbtn {
-    background: #ff7f00;
-    width: 70px;
-    text-align: center;
-    float: left;
-    height: 46px;
-}
+
 
 /*Content*/
 .condition {

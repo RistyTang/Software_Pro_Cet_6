@@ -186,6 +186,17 @@ td {
     border: solid 1px #A9A9A9;
     padding: 0 5px;
 }
+.s1 textarea {
+    height: 28px;
+    line-height: 27px;
+    width: 500px;
+    border-radius: 5px;
+    border: solid 1px #A9A9A9;
+    padding: 0 5px;
+    word-break: normal;
+    /*禁止拖动*/
+    resize: none;
+}
 .s2 input {
     height: 140px;
     line-height: 27px;
@@ -193,6 +204,18 @@ td {
     border-radius: 5px;
     border: solid 1px #A9A9A9;
     padding: 0 5px;
+    word-break: normal;
+}
+.s2 textarea {
+    height: 140px;
+    line-height: 27px;
+    width: 500px;
+    border-radius: 5px;
+    border: solid 1px #A9A9A9;
+    padding: 0 5px;
+    word-break: normal;
+    /*禁止拖动*/
+    resize: none;
 }
 .option input {
     height: 84px;
@@ -201,6 +224,17 @@ td {
     border-radius: 5px;
     border: solid 1px #A9A9A9;
     padding: 0 5px;
+}
+.option textarea {
+    height: 84px;
+    line-height: 27px;
+    width: 500px;
+    border-radius: 5px;
+    border: solid 1px #A9A9A9;
+    padding: 0 5px;
+    word-break: normal;
+    /*禁止拖动*/
+    resize: none;
 }
 .alignleft {
     text-align: left !important;
