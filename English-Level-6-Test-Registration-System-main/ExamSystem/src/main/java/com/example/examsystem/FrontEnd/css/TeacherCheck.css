@@ -179,13 +179,15 @@ td {
     right: -168px;
 }
 .s1 input {
-    height: 28px;
-    line-height: 27px;
-    width: 500px;
+    height: 35px;
+    line-height: 34px;
+    width: 56px;
     border-radius: 5px;
     border: solid 1px #A9A9A9;
     padding: 0 5px;
+
 }
+
 .s2 input {
     height: 140px;
     line-height: 27px;
@@ -204,6 +206,9 @@ td {
 }
 .alignleft {
     text-align: left !important;
+}
+.alignright {
+    text-align: right !important;
 }
 input[type="button" i] {
     appearance: auto;

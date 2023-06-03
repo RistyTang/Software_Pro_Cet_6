@@ -86,7 +86,7 @@
         <div class="condition-left">
             <!--        标题-->
             <div class="c_tits" style="margin-bottom: 70px;">
-                全国大学英语四、六级考试（含口试）成绩
+                全国大学英语六级考试（含口试）成绩
                 <div style="padding-top: 10px">
                     本人查询
                 </div>
@@ -127,7 +127,11 @@
                         <td>&nbsp;</td>
                         <td>
                             <div class="btnbox_news alignleft">
-                                <input type="button" onclick="querySubmit()" value="查询" id="submitButton">&nbsp;<input type="button" value="返回" style="cursor:hand" onclick="javascript:window.open('//cjcx.neea.edu.cn/cet/','_self');">
+<!--                                <input type="button" onclick="querySubmit()" value="查询" id="submitButton">-->
+                                此处设置“返回”时跳转到系统主页面，修改后注释本语句<br>
+                                <input type="button" onclick="javascript:window.open('./ResultShow.html','_self');" value="查询" id="submitButton">
+                                &nbsp;
+                                <input type="button" value="返回" style="cursor:hand" onclick="javascript:window.open('//cjcx.neea.edu.cn/cet/','_self');">
                             </div>
                         </td>
                     </tr>

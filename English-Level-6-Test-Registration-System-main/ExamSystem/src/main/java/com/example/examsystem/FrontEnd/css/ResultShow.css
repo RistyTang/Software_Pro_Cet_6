@@ -208,6 +208,9 @@ td {
 .alignleft {
     text-align: left !important;
 }
+.alignright {
+    text-align: right !important;
+}
 input[type="button" i] {
     appearance: auto;
     user-select: none;
